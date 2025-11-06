@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { RootStackParamList } from './index'; // vamos definir a tipagem no index.tsx
+import { RootStackParamList } from './index';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
 
